@@ -9,9 +9,10 @@
         body{
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 20px;
+            background-color: rgba(128, 128, 128, 0.103);
         }
         .person_name {
-            font-size: 50px;
+            font-size: 45px;
             font-weight: 700;
             margin-top: 20px;
             text-align: center;
@@ -39,7 +40,8 @@
             margin-left: 40%;
         }
         .discog_container{
-            text-align: center;
+            /* text-align: center; */
+            margin-left: 35%;
             color: rgba(13, 175, 13, 0.747);
         }
         .center {
@@ -50,7 +52,7 @@
             color: rgba(13, 175, 13, 0.747);
         }
         .span_yellow{
-            color: rgb(241, 241, 23);
+            color: rgb(231, 231, 9);
         }
         .span_red {
             color: rgb(207, 16, 16);
@@ -74,6 +76,15 @@
             border-left: 1px solid  rgba(13, 175, 13, 0.747);
             color: green;
         }
+        .bio_container {
+            /* border-bottom: 2px solid green; */
+        }
+        .iframe_container {
+            text-align: center;
+        }
+        .footer_container{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -81,9 +92,10 @@
     <div class="main_body">
         <div class="heading_article">
             <h1 class="person_name"> <span class="f_name"><i>Lucky</i></span> <span class="last_name">Dube</span> </h1>
+            <hr>
         </div>
         <div class="image_container">
-            <img src="https://i1.sndcdn.com/artworks-000398908188-w9b17s-t500x500.jpg" alt="Lucky Dube" width="250" height="250">
+            <img src="https://i1.sndcdn.com/artworks-000398908188-w9b17s-t500x500.jpg" alt="Lucky Dube" width="200" height="200">
         </div>
         <div class="biography_container">
             <article>
@@ -94,10 +106,14 @@
                     <span class="span_red">was South Africa's biggest-selling reggae artist. Dube was murdered in the <br> Johannesburg suburb of  Rosettenville on the evening of 18 October 2007.</span>
                 </p>
                 <a href="https://en.wikipedia.org/wiki/Lucky_Dube" target="_blank" class="more_info">Click here for more information.</a>
+                <br>
+                <br>
             </article>
         </div>
         <div class="iframe_container">
-            <!-- <iframe width="420" height="315" src="https://www.youtube.com/watch?v=R4csXJXHVGA"> </iframe> -->
+            <!-- <iframe width="700" height="345" src="https://www.youtube.com/embed/v=R4csXJXHVGA?playlist=v=R4csXJXHVGA&loop=1">
+            </iframe> -->
+            <iframe width="700" height="345" src="https://www.youtube.com/embed/R4csXJXHVGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="discography_container">
             <article class="">
@@ -164,6 +180,12 @@
             </article>
         </div>
     </div>
+    <hr>
+    <div class="footer_container">
+        <span><i>ivanepou &copy 2021</i></span>
+    </div>
+    <hr>
+    <br>
 </main>
 </body>
 </html>
